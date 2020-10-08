@@ -1,0 +1,11 @@
+.jumbotron{
+    background: #9575CD;
+}
+.history{
+    min-height: 400px;
+    border-bottom: 1px ridge;
+    margin: 50px 0px 50px 0px;
+}
+.footer{
+    background: #D1C4E9;
+}
