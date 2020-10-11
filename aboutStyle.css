@@ -1,5 +1,8 @@
 .jumbotron{
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
     background: #9575CD;
+    color: floralwhite;
 }
 .history{
     min-height: 400px;
@@ -17,4 +20,9 @@
 }
 .address{
     font-size: 80%;
+}
+.row-header{
+    color: white;
+    margin: 0px auto;
+     padding: 0px auto;
 }
