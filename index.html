@@ -247,7 +247,7 @@
             <div  class="row">             
                 <div class="col-4 col-sm-2">
                     <h5>Links</h5>
-                    <ul class="list-unstyled"
+                    <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Menu</a></li>
@@ -287,7 +287,19 @@
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-      
+      <script>
+          $(document).ready(function(){
+              $("#mycarousel").carousel({interval:500});
+
+              $("#carousel-pause").click(function(){
+                    $("#mycarousel").carousel('pause');
+              });
+
+              $("#carousel-play").click(function(){
+                  $("#mycarousel").carousel('cycle');
+              });
+          });
+      </script>
 </body>
 
 </html>
