@@ -59,3 +59,12 @@
     position: absolute;
     bottom: 0px;
 }
+.modal-header{
+    background:#512DAB ;
+}
+.modal-body{
+    background: #D1C4E9;
+}
+.close{
+   color: floralwhite;
+}
